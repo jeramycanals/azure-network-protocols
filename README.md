@@ -11,13 +11,13 @@ This project provides an overview and hands-on lab demonstrating how core networ
 </p>
 
 <p align="center">
-  <img width="1574" height="612" alt="image" src="https://github.com/user-attachments/assets/e80ecc4a-beec-4a14-96f3-a6849c391b2b" />
+  <img width="815" height="316" alt="image" src="https://github.com/user-attachments/assets/cc38f654-5332-490f-bd8d-7a7d1cb4d412" />
   <img width="732" height="679" alt="image" src="https://github.com/user-attachments/assets/0848e429-cc27-4225-87d9-2630519094b3" />
 </p>
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Resource Group, Virtual Machines, Virtual Network, Subnet)
+- Microsoft Azure (Resource Group, Virtual Machines, Virtual Network, and Subnet)
 - Network Security Groups (NSGs)
 - Azure Network Watcher
 - Remote Desktop (RDP)
