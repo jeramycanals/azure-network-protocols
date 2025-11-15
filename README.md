@@ -20,7 +20,7 @@ This project provides an overview and hands-on lab demonstrating how core networ
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Resource Groups, Virtual Machines, Virtual Networks, Subnets)
+- Microsoft Azure (Resource Group, Virtual Machines, Virtual Network, Subnets)
 - Network Security Groups (NSGs)
 - Azure Network Watcher
 - Remote Desktop
