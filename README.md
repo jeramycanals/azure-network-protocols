@@ -4,7 +4,7 @@
   <img width="297" height="117" alt="image" src="https://github.com/user-attachments/assets/f3cbff92-dffb-46e0-b8ed-556d7ce170a0" />
 </p>
 
-<h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines with Wireshark</h1>
+<h1>Network Traffic Analysis Between Azure VMs Using NSGs and Wireshark</h1>
 
 <p> 
 This project provides an overview and hands-on lab demonstrating how core network traffic behaves inside a cloud-hosted environment using Microsoft Azure Virtual Machines. The lab walks through creating a Windows 10 VM and an Ubuntu Linux VM inside the same virtual network, installing and using Wireshark to capture traffic, and analyzing how different protocols operate in real time. By using both Windows CMD/PowerShell and Bash on the Ubuntu VM, pinging between VMs, connecting over SSH, renewing DHCP leases, performing DNS lookups, and observing continuous RDP traffic, this project illustrates how ICMP, SSH, DHCP, DNS, and RDP packets move across a virtual network and how Network Security Groups (NSGs) affect communication. This lab builds foundational skills in cloud networking, packet analysis, virtual machine connectivity, and network troubleshooting—key capabilities for IT support, networking, and cybersecurity professionals. 
