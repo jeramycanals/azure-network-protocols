@@ -52,21 +52,34 @@ This project provides an overview and hands-on lab demonstrating how core networ
 
 </p>
 
-<h4>2. Create Windows 10 VM and select the previously created Resource Group</h4>
+<h4>2. Create a Windows 10 Virtual Machine (VM), select the previously created Resource Group, and create a new Virtual Network (Vnet) and Subnet</h4>
+
+<p>
+  <img width="764" height="701" alt="image" src="https://github.com/user-attachments/assets/df689c31-2a50-401d-a1e2-638e2848ed75" />
+</p>
+
+<p>
+  <img width="778" height="712" alt="image" src="https://github.com/user-attachments/assets/ab5412c6-25c9-49c4-b222-25724f63b2a8" />
+</p>
+
+<p>
+  <img width="776" height="702" alt="image" src="https://github.com/user-attachments/assets/9283a744-535b-4bc7-937c-e17fcb573ca9" />
+</p>
+
+<h4>2a. While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet</h4>
+
+<p>
+  <img width="771" height="694" alt="image" src="https://github.com/user-attachments/assets/43dd2c17-94c2-4751-9271-9e98241bf059" />
+</p>
+
+<h4>3. Create a Linux (Ubuntu) VM, and select the previously created Resource Group and Vnet</h4>
 
 <p>
   <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
 
 </p>
 
-<h4>3. Create Resource Group</h4>
-
-<p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
-</p>
-
-<h4>4. Create Resource Group</h4>
+<h4>4. Observe Your Virtual Network within Network Watcher</h4>
 
 <p>
   <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
