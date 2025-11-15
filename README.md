@@ -127,8 +127,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <h3>Step 3. Observe SSH Traffic</h3>
 
+<h4>11. Create Resource Group</h4>
+
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
+</p>
+
+<h4>12. Create Resource Group</h4>
+
+<p>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
 </p>
 
 <p>
@@ -137,8 +147,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <h3>Step 4. Observe DHCP Traffic</h3>
 
+<h4>13. Create Resource Group</h4>
+
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
+</p>
+
+<h4>14. Create Resource Group</h4>
+
+<p>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
 </p>
 
 <p>
@@ -147,8 +167,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <h3>Step 5. Observe DNS Traffic</h3>
 
+<h4>15. Create Resource Group</h4>
+
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
+</p>
+
+<h4>16. Create Resource Group</h4>
+
+<p>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
 </p>
 
 <p>
@@ -157,8 +187,45 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <h3>Step 6. Observe RDP Traffic</h3>
 
+<h4>17. Create Resource Group</h4>
+
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
+</p>
+
+<h4>18. Create Resource Group</h4>
+
+<p>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
+</p>
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+
+<h3>Lab Cleanup</h3>
+
+<h4>19. Create Resource Group</h4>
+
+<p>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
+</p>
+
+<h4>20. Create Resource Group</h4>
+
+<p>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
+</p>
+
+<h4>21. Create Resource Group</h4>
+
+<p>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
 </p>
 
 <p>
