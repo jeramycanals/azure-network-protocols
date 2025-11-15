@@ -11,11 +11,8 @@ This project provides an overview and hands-on lab demonstrating how core networ
 </p>
 
 <p align="center">
-  <img width="786" height="309" alt="image" src="https://github.com/user-attachments/assets/50f3fe46-2d8b-479b-8557-8277219ffc4c" />
-  <br>
-  <img width="535" height="467" alt="image" src="https://github.com/user-attachments/assets/7c0f58f9-cc6f-4d2d-8118-9eed869590eb" />
-  <br>
-  <img width="377" height="131" alt="image" src="https://github.com/user-attachments/assets/064fd988-97bd-4a7d-8367-11a92b4fe67b" />
+  <img width="1574" height="612" alt="image" src="https://github.com/user-attachments/assets/e80ecc4a-beec-4a14-96f3-a6849c391b2b" />
+  <img width="732" height="679" alt="image" src="https://github.com/user-attachments/assets/0848e429-cc27-4225-87d9-2630519094b3" />
 </p>
 
 <h2>Environments and Technologies Used</h2>
