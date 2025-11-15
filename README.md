@@ -17,7 +17,7 @@ This project provides an overview and hands-on lab demonstrating how core networ
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Resource Group, Virtual Machines, Virtual Network, and Subnet)
+- Microsoft Azure (Resource Group, Virtual Machines, Virtual Network (VNet), and Subnet)
 - Network Security Groups (NSGs)
 - Azure Network Watcher
 - Remote Desktop (RDP)
@@ -52,7 +52,7 @@ This project provides an overview and hands-on lab demonstrating how core networ
 
 </p>
 
-<h4>2. Create a Windows 10 Virtual Machine (VM), select the previously created Resource Group, and create a new Virtual Network (Vnet) and Subnet</h4>
+<h4>2. Create a Windows 10 Virtual Machine (VM), and select the previously created Resource Group</h4>
 
 <p>
   <img width="764" height="701" alt="image" src="https://github.com/user-attachments/assets/df689c31-2a50-401d-a1e2-638e2848ed75" />
