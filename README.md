@@ -32,7 +32,7 @@ This project provides an overview and hands-on lab demonstrating how core networ
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (22H2)
-- Ubuntu Server 22.04
+- Ubuntu Server 24.04
 
 <h2>High-Level Steps</h2>
 
@@ -56,27 +56,28 @@ This project provides an overview and hands-on lab demonstrating how core networ
 
 <p>
   <img width="764" height="701" alt="image" src="https://github.com/user-attachments/assets/df689c31-2a50-401d-a1e2-638e2848ed75" />
-</p>
-
-<p>
   <img width="778" height="712" alt="image" src="https://github.com/user-attachments/assets/ab5412c6-25c9-49c4-b222-25724f63b2a8" />
-</p>
-
-<p>
   <img width="776" height="702" alt="image" src="https://github.com/user-attachments/assets/9283a744-535b-4bc7-937c-e17fcb573ca9" />
 </p>
 
-<h4>2a. While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet</h4>
+<h4>2a. While creating the VM, allow it to create a new Virtual Network (VNet) and Subnet</h4>
 
 <p>
   <img width="771" height="694" alt="image" src="https://github.com/user-attachments/assets/43dd2c17-94c2-4751-9271-9e98241bf059" />
 </p>
 
-<h4>3. Create a Linux (Ubuntu) VM, and select the previously created Resource Group and Vnet</h4>
+<h4>3. Create a Linux (Ubuntu) VM</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+  <img width="769" height="697" alt="image" src="https://github.com/user-attachments/assets/8ad69c3d-bd11-404a-b424-89ba20472346" />
+  <img width="762" height="637" alt="image" src="https://github.com/user-attachments/assets/128efa86-4f97-41ad-8179-21e3791cc0b7" />
+  <img width="770" height="629" alt="image" src="https://github.com/user-attachments/assets/aa0ffa7b-acb8-49cf-8c04-718374e980da" />
+</p>
 
+<h4>3a. While creating the VM, select the previously created Resource Group and VNet</h4>
+
+<p>
+  <img width="783" height="702" alt="image" src="https://github.com/user-attachments/assets/8b4e905a-8a48-4b91-9d5f-aea7865dbc3f" />
 </p>
 
 <h4>4. Observe Your Virtual Network within Network Watcher</h4>
