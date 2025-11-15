@@ -93,42 +93,42 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <h3>Step 2. Observe ICMP Traffic</h3>
 
-<h4>5. Create Resource Group</h4>
+<h4>5. Lorem</h4>
 
 <p>
   <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
 
 </p>
 
-<h4>6. Create Resource Group</h4>
+<h4>6. Lorem</h4>
 
 <p>
   <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
 
 </p>
 
-<h4>7. Create Resource Group</h4>
+<h4>7. Lorem</h4>
 
 <p>
   <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
 
 </p>
 
-<h4>8. Create Resource Group</h4>
+<h4>8. Lorem</h4>
 
 <p>
   <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
 
 </p>
 
-<h4>9. Create Resource Group</h4>
+<h4>9. Lorem</h4>
 
 <p>
   <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
 
 </p>
 
-<h4>10. Create Resource Group</h4>
+<h4>10. Lorem</h4>
 
 <p>
   <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
@@ -141,7 +141,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <h3>Step 3. Observe SSH Traffic</h3>
 
-<h4>11. Create Resource Group</h4>
+<h4>11. Lorem</h4>
 
 <p>
   <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
