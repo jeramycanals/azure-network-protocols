@@ -80,11 +80,10 @@ This project provides an overview and hands-on lab demonstrating how core networ
   <img width="783" height="702" alt="image" src="https://github.com/user-attachments/assets/8b4e905a-8a48-4b91-9d5f-aea7865dbc3f" />
 </p>
 
-<h4>4. Observe Your Virtual Network within Network Watcher</h4>
+<h4>4. Observe Your Virtual Network, NSGs (1 for Windows VM, 1 for Linux VM), and VMs within the "RG-Network-Activities" Resource Group that was created</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="1327" height="765" alt="image" src="https://github.com/user-attachments/assets/1991320d-2e7d-425d-bd00-3b5478295a2a" />
 </p>
 
 <p>
