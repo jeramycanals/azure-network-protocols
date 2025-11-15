@@ -34,8 +34,8 @@ This project provides an overview and hands-on lab demonstrating how core networ
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 (21H2)
-- Ubuntu Server 20.04
+- Windows 10 (22H2)
+- Ubuntu Server 22.04
 
 <h2>High-Level Steps</h2>
 
