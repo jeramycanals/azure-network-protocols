@@ -2,8 +2,6 @@
   <img width="297" height="65" alt="image" src="https://github.com/user-attachments/assets/499c27ec-8b27-47f7-9f60-c28191276562" />
   <img width="145" height="57" alt="image" src="https://github.com/user-attachments/assets/10050681-339e-406f-906b-0683d42eeb44" />
   <img width="297" height="117" alt="image" src="https://github.com/user-attachments/assets/f3cbff92-dffb-46e0-b8ed-556d7ce170a0" />
-
-  
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines with Wireshark</h1>
@@ -12,7 +10,11 @@ This project provides an overview and hands-on lab demonstrating how core networ
 <br />
 
 <p align="center">
-  <img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+  <img width="786" height="309" alt="image" src="https://github.com/user-attachments/assets/50f3fe46-2d8b-479b-8557-8277219ffc4c" />
+  <br>
+  <img width="535" height="467" alt="image" src="https://github.com/user-attachments/assets/7c0f58f9-cc6f-4d2d-8118-9eed869590eb" />
+  <br>
+  <img width="377" height="131" alt="image" src="https://github.com/user-attachments/assets/064fd988-97bd-4a7d-8367-11a92b4fe67b" />
 </p>
 
 <h2>Environments and Technologies Used</h2>
