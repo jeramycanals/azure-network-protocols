@@ -45,8 +45,32 @@ This project provides an overview and hands-on lab demonstrating how core networ
 
 <h3>Step 1. Create Resources</h3>
 
+<h4>1. Create Resource Group</h4>
+
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
+</p>
+
+<h4>2. Create Windows 10 VM and select the previously created Resource Group</h4>
+
+<p>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
+</p>
+
+<h4>3. Create Resource Group</h4>
+
+<p>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
+</p>
+
+<h4>4. Create Resource Group</h4>
+
+<p>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
 </p>
 
 <p>
@@ -55,8 +79,46 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <h3>Step 2. Observe ICMP Traffic</h3>
 
+<h4>5. Create Resource Group</h4>
+
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
+</p>
+
+<h4>6. Create Resource Group</h4>
+
+<p>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
+</p>
+
+<h4>7. Create Resource Group</h4>
+
+<p>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
+</p>
+
+<h4>8. Create Resource Group</h4>
+
+<p>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
+</p>
+
+<h4>9. Create Resource Group</h4>
+
+<p>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
+</p>
+
+<h4>10. Create Resource Group</h4>
+
+<p>
+  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+
 </p>
 
 <p>
