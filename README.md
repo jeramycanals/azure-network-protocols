@@ -114,11 +114,11 @@ In Step 1, we create a Resource Group to organize all of our Azure components. W
   <img width="792" height="586" alt="image" src="https://github.com/user-attachments/assets/4a608f3a-abe2-4f45-bda0-fd6dabcff3cd" />
 </p>
 
-<h4>7. Open Wireshark and filter for ICMP traffic only</h4>
+<h4>7. Open Wireshark, click "Ethernet", then click the blue shark fin icon to start capturing packets, apply a filter for ICMP traffic only</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="743" height="575" alt="image" src="https://github.com/user-attachments/assets/64914628-4462-4553-9528-55e0d28443ca" />
+  <img width="743" height="576" alt="image" src="https://github.com/user-attachments/assets/97b127c6-a9fc-4683-a09c-216673a36af1" />
 </p>
 
 <h4>8. Lorem</h4>
