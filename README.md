@@ -147,18 +147,17 @@ In Step 1, we create a Resource Group to organize all of our Azure components. W
   <img width="1622" height="858" alt="image" src="https://github.com/user-attachments/assets/504a1a9b-59e3-452e-b037-150cdad728ef" />
 </p>
 
-<h4>10a. Lorem</h4>
+<h4>10a. Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic by going to linux-vm > Network settings > Network security group: linux-vm-nsg > Settings > Inbound security rules > Add.</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="1902" height="857" alt="image" src="https://github.com/user-attachments/assets/59ebbfec-5d6f-4047-860c-f09a0f7e31e3" />
+  <img width="1900" height="454" alt="image" src="https://github.com/user-attachments/assets/ccb8ac35-25e3-4d11-9d0a-209ad7a5d127" />
 </p>
 
-<h4>10b. Lorem</h4>
+<h4>10b. Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command-line ping activity. With the Linux VMs NSG Inbound security rule blocking ICMP, the ping now shows "Request timed out." In Wireshark, you will see ICMP requests being sent but no replies returning from the Ubuntu Linux VM.</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="1634" height="679" alt="image" src="https://github.com/user-attachments/assets/9a42d1f6-6862-40c0-bfbb-9141bac7f15e" />
 </p>
 
 <h4>10c. Lorem</h4>
