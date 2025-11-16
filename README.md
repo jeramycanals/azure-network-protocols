@@ -97,7 +97,7 @@ This project provides an overview and hands-on lab demonstrating how core networ
 <h4>Step 1 Summary</h4>
 
 <p>
-In Step 1, we create a Resource Group to organize all of our Azure components. We then deploy a Windows 10 Virtual Machine and allow Azure to automatically create a new Virtual Network (VNet) and Subnet for it. Next, we deploy an Ubuntu Linux Virtual Machine into the same Resource Group and VNet so both machines can communicate over the private network. Used Network Watcher to inspect the Virtual Network and confirm that both VMs are connected to the same VNet and Subnet. Finally, we observe our Virtual Network, both NSGs (one for the Windows VM and one for the Linux VM), and all VMs within the RG-Network-Activities Resource Group that we created.
+In Step 1, we create a Resource Group to organize all of our Azure components. We then deploy a Windows 10 Virtual Machine and allow Azure to automatically create a new Virtual Network (VNet) and Subnet for it. Next, we deploy an Ubuntu Linux Virtual Machine into the same Resource Group and VNet so both machines can communicate over the private network. We used Network Watcher to inspect the Virtual Network and confirm that both VMs are connected to the same VNet and Subnet. Finally, we observe our Virtual Network, both NSGs (one for the Windows VM and one for the Linux VM), and all VMs within the RG-Network-Activities Resource Group that we created.
 </p>
 
 <h3>Step 2. Observe ICMP Traffic</h3>
@@ -144,8 +144,10 @@ In Step 1, we create a Resource Group to organize all of our Azure components. W
 
 </p>
 
+<h4>Step 2 Summary</h4>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Lorem
 </p>
 
 <h3>Step 3. Observe SSH Traffic</h3>
@@ -164,10 +166,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+<h4>Step 3 Summary</h4>
 
+<p>
+Lorem
+</p>
 <h3>Step 4. Observe DHCP Traffic</h3>
 
 <h4>13. Create Resource Group</h4>
@@ -184,8 +187,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 
+<h4>Step 4 Summary</h4>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Lorem
 </p>
 
 <h3>Step 5. Observe DNS Traffic</h3>
@@ -204,8 +209,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 
+<h4>Step 5 Summary</h4>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Lorem
 </p>
 
 <h3>Step 6. Observe RDP Traffic</h3>
@@ -224,8 +231,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 
+<h4>Step 6 Summary</h4>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Lorem
 </p>
 
 <h3>Lab Cleanup</h3>
@@ -251,8 +260,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 
+<h4>Lab Cleanup Summary</h4>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Lorem
 </p>
 
 <h2>Conclusion</h2>
