@@ -219,18 +219,16 @@ In this section, we analyzed how SSH traffic behaved between two Azure virtual m
 </p>
 <h3>Step 4. Observe DHCP Traffic</h3>
 
-<h4>13. Create Resource Group</h4>
+<h4>13. Back in Wireshark, start a new capture and apply the display filter "dhcp" to view DHCP traffic only.</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="1039" height="535" alt="image" src="https://github.com/user-attachments/assets/7d4824ff-c60d-4795-9de4-0100244bacec" />
 </p>
 
-<h4>14. Create Resource Group</h4>
+<h4>14. From your Windows 10 VM, attempt to issue the VM a new IP address from the command line with "ipconfig /renew."</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="1844" height="542" alt="image" src="https://github.com/user-attachments/assets/c48c9484-1ef9-4161-9ffa-81b542614d0e" />
 </p>
 
 <h4>Step 4 Summary</h4>
