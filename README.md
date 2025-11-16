@@ -135,7 +135,7 @@ In Step 1, we create a Resource Group to organize all of our Azure components. W
   <img width="773" height="698" alt="image" src="https://github.com/user-attachments/assets/9ac5afd0-839e-4279-b1a9-236bd7e6e50e" />
 </p>
 
-<h4>9. From the Windows 10 VM, open PowerShell or the command line and attempt to ping a public website (such as www.google.com), and observe the traffic in Wireshark</h4>
+<h4>9. From the Windows 10 VM, open PowerShell or Command Prompt, ping a public website (such as www.google.com), and observe the traffic in Wireshark</h4>
 
 <p>
   <img width="1575" height="574" alt="image" src="https://github.com/user-attachments/assets/c95350d3-b5fd-4cb7-b6a5-ef5b74f66c1e" />
