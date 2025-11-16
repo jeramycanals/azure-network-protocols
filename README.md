@@ -186,18 +186,29 @@ In Step 2, we connect to our Windows 10 VM using Remote Desktop, install Wiresha
 
 <h3>Step 3. Observe SSH Traffic</h3>
 
-<h4>11. Lorem</h4>
+<h4>11. In Wireshark, start a new packet capture by clicking the green shark-fin icon and selecting "Continue without Saving," then apply the display filter tcp.port == 22 to display SSH traffic only.</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="1192" height="688" alt="image" src="https://github.com/user-attachments/assets/2e193309-1469-4e96-b899-9bafa6eb2910" />
+  <img width="1173" height="674" alt="image" src="https://github.com/user-attachments/assets/5079848f-cb22-4182-82bd-efdc43b4b87e" />
 </p>
 
-<h4>12. Create Resource Group</h4>
+<h4>12. From your Windows 10 VM, open PowerShell and initiate an SSH connection to your Ubuntu VM using its private IP address by typing "ssh labuser@Ubuntu-Private-IP" from Step 2, number 8. Type "yes" when prompted and then enter the Ubuntu VM's password when prompted to complete the SSH login. Once connected, observe the SSH traffic appearing in Wireshark.</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
+  <img width="1891" height="681" alt="image" src="https://github.com/user-attachments/assets/e9376f7d-7ea3-4df2-8905-10db8c925d8a" />
+</p>
 
+<h4>12a. Lorem</h4>
+
+<p>
+  <img width="1891" height="681" alt="image" src="https://github.com/user-attachments/assets/e9376f7d-7ea3-4df2-8905-10db8c925d8a" />
+</p>
+
+<h4>12. Lorem</h4>
+
+<p>
+  <img width="1891" height="681" alt="image" src="https://github.com/user-attachments/assets/e9376f7d-7ea3-4df2-8905-10db8c925d8a" />
 </p>
 
 <h4>Step 3 Summary</h4>
