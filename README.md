@@ -225,10 +225,17 @@ In this section, we analyzed how SSH traffic behaved between two Azure virtual m
   <img width="1039" height="535" alt="image" src="https://github.com/user-attachments/assets/7d4824ff-c60d-4795-9de4-0100244bacec" />
 </p>
 
-<h4>14. From your Windows 10 VM, attempt to issue the VM a new IP address from the command line with "ipconfig /renew."</h4>
+<h4>14. From your Windows 10 VM, attempt to issue the VM a new IP address from the command line (ipconfig /renew).</h4>
 
 <p>
-  <img width="1844" height="542" alt="image" src="https://github.com/user-attachments/assets/c48c9484-1ef9-4161-9ffa-81b542614d0e" />
+  <img width="811" height="529" alt="image" src="https://github.com/user-attachments/assets/30fc91f3-68e3-4166-856c-151563d8e903" />
+</p>
+
+<h4>14a. Observe the DHCP traffic that appears in Wireshark as the Windows VM requests and receives a new IP address.</h4>
+
+<p>
+  <img width="1042" height="530" alt="image" src="https://github.com/user-attachments/assets/9d59e48d-a745-4962-a769-03668569412c" />
+
 </p>
 
 <h4>Step 4 Summary</h4>
