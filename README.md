@@ -46,14 +46,14 @@ This project provides an overview and lab demonstrating how core network traffic
 
 <h3>Step 1. Create Resources</h3>
 
-<h4>1. Create Resource Group</h4>
+<h4>1. Create a Resource Group.</h4>
 
 <p>
   <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
 
 </p>
 
-<h4>2. Create a Windows 10 Virtual Machine (VM), and select the previously created Resource Group</h4>
+<h4>2. Create a Windows 10 Virtual Machine (VM), and select the previously created Resource Group.</h4>
 
 <p>
   <img width="764" height="701" alt="image" src="https://github.com/user-attachments/assets/df689c31-2a50-401d-a1e2-638e2848ed75" />
@@ -61,13 +61,13 @@ This project provides an overview and lab demonstrating how core network traffic
   <img width="776" height="702" alt="image" src="https://github.com/user-attachments/assets/9283a744-535b-4bc7-937c-e17fcb573ca9" />
 </p>
 
-<h4>2a. While creating the VM, allow it to create a new Virtual Network (VNet) and Subnet</h4>
+<h4>2a. While creating the VM, allow it to create a new Virtual Network (VNet) and Subnet.</h4>
 
 <p>
   <img width="771" height="694" alt="image" src="https://github.com/user-attachments/assets/43dd2c17-94c2-4751-9271-9e98241bf059" />
 </p>
 
-<h4>3. Create a Linux (Ubuntu) VM</h4>
+<h4>3. Create a Linux (Ubuntu) VM.</h4>
 
 <p>
   <img width="769" height="697" alt="image" src="https://github.com/user-attachments/assets/8ad69c3d-bd11-404a-b424-89ba20472346" />
@@ -75,7 +75,7 @@ This project provides an overview and lab demonstrating how core network traffic
   <img width="770" height="629" alt="image" src="https://github.com/user-attachments/assets/aa0ffa7b-acb8-49cf-8c04-718374e980da" />
 </p>
 
-<h4>3a. While creating the VM, select the previously created Resource Group, VNet, and Subnet</h4>
+<h4>3a. While creating the VM, select the previously created Resource Group, VNet, and Subnet.</h4>
 
 <p>
   <img width="783" height="702" alt="image" src="https://github.com/user-attachments/assets/8b4e905a-8a48-4b91-9d5f-aea7865dbc3f" />
@@ -103,88 +103,85 @@ In Step 1, we create a Resource Group to organize all of our Azure components. W
 
 <h3>Step 2. Observe ICMP Traffic</h3>
 
-<h4>5. Use Remote Desktop to connect to your Windows 10 Virtual Machine</h4>
+<h4>5. Use Remote Desktop to connect to your Windows 10 Virtual Machine.</h4>
 
 <p>
   <img width="619" height="377" alt="image" src="https://github.com/user-attachments/assets/0c2b0759-3342-4349-9023-89716d1eff88" />
 </p>
 
-<h4>6. Within your Windows 10 Virtual Machine, install Wireshark</h4>
+<h4>6. Within your Windows 10 Virtual Machine, install Wireshark.</h4>
 
 <p>
   <img width="792" height="586" alt="image" src="https://github.com/user-attachments/assets/4a608f3a-abe2-4f45-bda0-fd6dabcff3cd" />
 </p>
 
-<h4>7. Open Wireshark, click "Ethernet", then click the blue shark fin icon to start capturing packets, apply a filter for ICMP traffic only</h4>
+<h4>7. Open Wireshark, click "Ethernet", then click the blue shark fin icon to start capturing packets, apply a filter for ICMP traffic only.</h4>
 
 <p>
   <img width="743" height="575" alt="image" src="https://github.com/user-attachments/assets/64914628-4462-4553-9528-55e0d28443ca" />
   <img width="743" height="576" alt="image" src="https://github.com/user-attachments/assets/97b127c6-a9fc-4683-a09c-216673a36af1" />
 </p>
 
-<h4>8. Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM</h4>
+<h4>8. Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM.</h4>
 
 <p>
   <img width="1269" height="395" alt="image" src="https://github.com/user-attachments/assets/de61a064-aa2a-4a37-b9cf-2a79672df534" />
   <img width="851" height="699" alt="image" src="https://github.com/user-attachments/assets/e143cfb5-877f-4229-b5b9-9670bea1d674" />
 </p>
 
-<h4>8a. Observe ping requests and replies within Wireshark</h4>
+<h4>8a. Observe ping requests and replies within Wireshark.</h4>
 
 <p>
   <img width="773" height="698" alt="image" src="https://github.com/user-attachments/assets/9ac5afd0-839e-4279-b1a9-236bd7e6e50e" />
 </p>
 
-<h4>9. From the Windows 10 VM, open PowerShell or Command Prompt, ping a public website (such as www.google.com), and observe the traffic in Wireshark</h4>
+<h4>9. From the Windows 10 VM, open PowerShell or Command Prompt, ping a public website (such as www.google.com), and observe the traffic in Wireshark.</h4>
 
 <p>
   <img width="1575" height="574" alt="image" src="https://github.com/user-attachments/assets/c95350d3-b5fd-4cb7-b6a5-ef5b74f66c1e" />
 </p>
 
-<h4>10. Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM</h4>
+<h4>10. Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM.</h4>
 
 <p>
   <img width="1622" height="858" alt="image" src="https://github.com/user-attachments/assets/504a1a9b-59e3-452e-b037-150cdad728ef" />
 </p>
 
-<h4>10a. Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic by going to linux-vm > Network settings > Network security group: linux-vm-nsg > Settings > Inbound security rules > Add.</h4>
+<h4>10a. Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic by going to linux-vm > Network settings > Network security group: linux-vm-nsg > Settings > Inbound security rules > Add. Use the settings below.</h4>
 
 <p>
   <img width="1902" height="857" alt="image" src="https://github.com/user-attachments/assets/59ebbfec-5d6f-4047-860c-f09a0f7e31e3" />
   <img width="1900" height="454" alt="image" src="https://github.com/user-attachments/assets/ccb8ac35-25e3-4d11-9d0a-209ad7a5d127" />
 </p>
 
-<h4>10b. Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command-line ping activity. With the Linux VMs NSG Inbound security rule blocking ICMP, the ping now shows "Request timed out." In Wireshark, you will see ICMP requests being sent but no replies returning from the Ubuntu Linux VM.</h4>
+<h4>10b. Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command-line ping activity. With the Linux VM's NSG Inbound security rule blocking ICMP, the ping now shows "Request timed out." In Wireshark, you will see ICMP requests being sent but no replies returning from the Ubuntu Linux VM.</h4>
 
 <p>
-  <img width="1634" height="679" alt="image" src="https://github.com/user-attachments/assets/9a42d1f6-6862-40c0-bfbb-9141bac7f15e" />
+  <img width="1716" height="682" alt="image" src="https://github.com/user-attachments/assets/6ebee156-4665-4983-9556-18a947948318" />
 </p>
 
-<h4>10c. Lorem</h4>
+<h4>10c. Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is using by deleting the inbound security rule you created.</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="1909" height="417" alt="image" src="https://github.com/user-attachments/assets/60895a72-9f61-4414-8e89-627ed85b3b2b" />
 </p>
 
-<h4>10d. Lorem</h4>
+<h4>10d. Back in the Windows 10 VM, observe the ICMP traffic in Wireshark and the command-line ping activity, which should now start working again.</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="1760" height="679" alt="image" src="https://github.com/user-attachments/assets/199c553b-2815-4964-ad5c-adbb6e04efd3" />
 </p>
 
-<h4>10e. Lorem</h4>
+<h4>10e. Stop the ping activity by pressing Ctrl+C in the command line and clicking the stop icon in Wireshark.</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="1756" height="676" alt="image" src="https://github.com/user-attachments/assets/937b95fd-0d27-4712-9a88-1149f1f4533d" />
 </p>
 
 <h4>Step 2 Summary</h4>
 
 <p>
-Lorem
+In Step 2, we connect to our Windows 10 VM using Remote Desktop, install Wireshark, and begin capturing network traffic filtered for ICMP. We retrieve the Ubuntu VM’s private IP address and ping it from the Windows VM to observe the ICMP requests and replies in both the command line and Wireshark. We then ping a public website, such as www.google.com, to view the ICMP activity generated by external communication. Next, we initiate a nonstop ping from the Windows VM to the Ubuntu VM and modify the Ubuntu VM’s Network Security Group by disabling inbound ICMP traffic, causing the pings to time out and removing ICMP replies in Wireshark. After re-enabling ICMP in the NSG, we observe the ping traffic resume successfully in both the terminal and Wireshark, and finally stop the continuous ping.
 </p>
 
 <h3>Step 3. Observe SSH Traffic</h3>
