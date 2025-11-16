@@ -74,20 +74,30 @@ This project provides an overview and hands-on lab demonstrating how core networ
   <img width="770" height="629" alt="image" src="https://github.com/user-attachments/assets/aa0ffa7b-acb8-49cf-8c04-718374e980da" />
 </p>
 
-<h4>3a. While creating the VM, select the previously created Resource Group and VNet</h4>
+<h4>3a. While creating the VM, select the previously created Resource Group, VNet, and Subnet</h4>
 
 <p>
   <img width="783" height="702" alt="image" src="https://github.com/user-attachments/assets/8b4e905a-8a48-4b91-9d5f-aea7865dbc3f" />
 </p>
 
-<h4>4. Observe Your Virtual Network, NSGs (1 for Windows VM, 1 for Linux VM), and VMs within the "RG-Network-Activities" Resource Group that was created</h4>
+<h4>4. Use Network Watcher to inspect the Virtual Network and confirm that both VMs are connected to the same VNet and Subnet.</h4>
+
+<p>
+  <img width="1027" height="622" alt="image" src="https://github.com/user-attachments/assets/54eb99e3-b1b6-4b6d-bb91-0b3a05f628b3" />
+  <img width="1009" height="620" alt="image" src="https://github.com/user-attachments/assets/27ca0d28-8ccc-4773-be0e-d14c683abc73" />
+</p>
+
+
+<h4>4a. Observe our Virtual Network, both NSGs (one for the Windows VM and one for the Linux VM), and both VMs (Windows and Linux) within the RG-Network-Activities Resource Group that we created.</h4>
 
 <p>
   <img width="1327" height="765" alt="image" src="https://github.com/user-attachments/assets/1991320d-2e7d-425d-bd00-3b5478295a2a" />
 </p>
 
+<h4>Step 1 Summary</h4>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In Step 1, we create a Resource Group to organize all of our Azure components. We then deploy a Windows 10 Virtual Machine and allow Azure to automatically create a new Virtual Network (VNet) and Subnet for it. Next, we deploy an Ubuntu Linux Virtual Machine into the same Resource Group and VNet so both machines can communicate over the private network. Used Network Watcher to inspect the Virtual Network and confirm that both VMs are connected to the same VNet and Subnet. Finally, we observe our Virtual Network, both NSGs (one for the Windows VM and one for the Linux VM), and all VMs within the RG-Network-Activities Resource Group that we created.
 </p>
 
 <h3>Step 2. Observe ICMP Traffic</h3>
