@@ -7,7 +7,7 @@
 <h1>Network Traffic Analysis Between Azure VMs Using NSGs and Wireshark</h1>
 
 <p> 
-This project provides an overview and lab demonstrating how core network traffic behaves inside a cloud-hosted environment using Microsoft Azure Virtual Machines. The lab walks through creating a Windows 10 VM and an Ubuntu Linux VM inside the same virtual network, installing and using Wireshark to capture traffic, and analyzing how different protocols operate in real time. By using both Windows CMD/PowerShell and Bash on the Ubuntu VM, pinging between VMs, connecting over SSH, renewing DHCP leases, performing DNS lookups, and observing continuous RDP traffic, this project illustrates how ICMP, SSH, DHCP, DNS, and RDP packets move across a virtual network and how Network Security Groups (NSGs) affect communication. This lab builds foundational skills in cloud networking, packet analysis, virtual machine connectivity, and network troubleshooting—key capabilities for IT support, networking, and cybersecurity professionals. 
+This project provides a hands-on lab demonstrating how core network traffic behaves inside a cloud-hosted environment using Microsoft Azure Virtual Machines. The lab walks through creating a Windows 10 VM and an Ubuntu Linux VM inside the same virtual network, installing and using Wireshark to capture traffic, and analyzing how different protocols operate in real time. By using both Windows CMD/PowerShell and Bash on the Ubuntu VM, pinging between VMs, connecting over SSH, renewing DHCP leases, performing DNS lookups, and observing continuous RDP traffic, this project illustrates how ICMP, SSH, DHCP, DNS, and RDP packets move across a virtual network and how Network Security Groups (NSGs) affect communication. This lab builds foundational skills in cloud networking, packet analysis, virtual machine connectivity, and network troubleshooting—key capabilities for IT support, networking, and cybersecurity professionals. 
 </p>
 
 <p align="center">
@@ -206,16 +206,16 @@ In Step 2, we connect to our Windows 10 VM using Remote Desktop, install Wiresha
   <img width="1852" height="531" alt="image" src="https://github.com/user-attachments/assets/ca49277b-70fe-46aa-9423-51a81c778aa7" />
 </p>
 
-<h4>12. Lorem</h4>
+<h4>12b. Exit the SSH connection by typing "exit" and pressing [Enter].</h4>
 
 <p>
-  <img width="1891" height="681" alt="image" src="https://github.com/user-attachments/assets/e9376f7d-7ea3-4df2-8905-10db8c925d8a" />
+  <img width="1852" height="531" alt="image" src="https://github.com/user-attachments/assets/29134e64-87d9-4eb1-9af0-97dec9081da0" />
 </p>
 
 <h4>Step 3 Summary</h4>
 
 <p>
-Lorem
+In this section, we analyzed how SSH traffic behaved between two Azure virtual machines. After switching Wireshark to a capture filtered for SSH packets only (tcp.port == 22), we initiated an SSH connection from the Windows 10 VM to the Ubuntu VM using its private IP address. Once logged in, we executed several Linux commands such as id, hostname, and uname -a, which generated encrypted SSH activity and observed the resulting packet flow in Wireshark. Each command produced a burst of encrypted SSH packets, demonstrating how all session data was securely transmitted over the SSH protocol. Finally, we closed the session by typing exit, which ended the SSH connection.
 </p>
 <h3>Step 4. Observe DHCP Traffic</h3>
 
