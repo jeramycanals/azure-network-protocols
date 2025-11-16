@@ -22,6 +22,7 @@ This project provides an overview and hands-on lab demonstrating how core networ
 - Azure Network Watcher
 - Remote Desktop (RDP)
 - Wireshark (Protocol Analyzer)
+- <img align="center" alt="PowerShell Icon" width="20px" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/powershell-colored.svg" /> PowerShell
 - Various Command-Line Tools
 - Linux Terminal (Bash)
 - ICMP (Ping)
@@ -121,14 +122,20 @@ In Step 1, we create a Resource Group to organize all of our Azure components. W
   <img width="743" height="576" alt="image" src="https://github.com/user-attachments/assets/97b127c6-a9fc-4683-a09c-216673a36af1" />
 </p>
 
-<h4>8. Lorem</h4>
+<h4>8. Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="1269" height="395" alt="image" src="https://github.com/user-attachments/assets/de61a064-aa2a-4a37-b9cf-2a79672df534" />
+  <img width="851" height="699" alt="image" src="https://github.com/user-attachments/assets/e143cfb5-877f-4229-b5b9-9670bea1d674" />
 </p>
 
-<h4>9. Lorem</h4>
+<h4>8a. Observe ping requests and replies within Wireshark</h4>
+
+<p>
+  <img width="773" height="698" alt="image" src="https://github.com/user-attachments/assets/9ac5afd0-839e-4279-b1a9-236bd7e6e50e" />
+</p>
+
+<h4>9.  From the Windows 10 VM, open the command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in Wireshark</h4>
 
 <p>
   <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
