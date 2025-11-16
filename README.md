@@ -102,21 +102,19 @@ In Step 1, we create a Resource Group to organize all of our Azure components. W
 
 <h3>Step 2. Observe ICMP Traffic</h3>
 
-<h4>5. Lorem</h4>
+<h4>5. Use Remote Desktop to connect to your Windows 10 Virtual Machine</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="619" height="377" alt="image" src="https://github.com/user-attachments/assets/0c2b0759-3342-4349-9023-89716d1eff88" />
 </p>
 
-<h4>6. Lorem</h4>
+<h4>6. Within your Windows 10 Virtual Machine, install Wireshark</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="792" height="586" alt="image" src="https://github.com/user-attachments/assets/4a608f3a-abe2-4f45-bda0-fd6dabcff3cd" />
 </p>
 
-<h4>7. Lorem</h4>
+<h4>7. Open Wireshark and filter for ICMP traffic only</h4>
 
 <p>
   <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
