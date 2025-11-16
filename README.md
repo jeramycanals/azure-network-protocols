@@ -197,12 +197,13 @@ In Step 2, we connect to our Windows 10 VM using Remote Desktop, install Wiresha
 
 <p>
   <img width="1891" height="681" alt="image" src="https://github.com/user-attachments/assets/e9376f7d-7ea3-4df2-8905-10db8c925d8a" />
+  <img width="1852" height="683" alt="image" src="https://github.com/user-attachments/assets/9ec493f5-2ec4-4c8b-8459-27b82f097ac0" />
 </p>
 
-<h4>12a. Lorem</h4>
+<h4>12a. Type commands (id, hostname, uname -a, etc) into the Linux SSH connection and observe the SSH traffic spam in Wireshark.</h4>
 
 <p>
-  <img width="1891" height="681" alt="image" src="https://github.com/user-attachments/assets/e9376f7d-7ea3-4df2-8905-10db8c925d8a" />
+  <img width="1852" height="531" alt="image" src="https://github.com/user-attachments/assets/ca49277b-70fe-46aa-9423-51a81c778aa7" />
 </p>
 
 <h4>12. Lorem</h4>
