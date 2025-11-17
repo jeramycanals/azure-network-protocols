@@ -22,9 +22,8 @@ This project provides a hands-on lab demonstrating how core network traffic beha
 - Azure Network Watcher
 - Remote Desktop (RDP)
 - Wireshark (Protocol Analyzer)
-- <img align="center" alt="PowerShell Icon" width="20px" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/powershell-colored.svg" /> PowerShell
-- Various Command-Line Tools
-- Linux Terminal (Bash)
+- <img align="center" alt="PowerShell Icon" width="20px" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/powershell-colored.svg" /> PowerShell Commands: (ping, ipconfig /renew, nslookup, ssh, etc.)
+- Linux Terminal (Bash): Commands (id, hostname, uname -a, exit, etc.)
 - ICMP (Ping)
 - Secure Shell (SSH)
 - DHCP (Dynamic Host Configuration Protocol)
@@ -252,11 +251,10 @@ In Step 4, we observed how DHCP traffic behaves when a Windows VM requests a new
   <img width="1244" height="617" alt="image" src="https://github.com/user-attachments/assets/6506c771-0e81-4346-afa6-acfaf812952f" />
 </p>
 
-<h4>16. Create Resource Group</h4>
+<h4>16. From your Windows 10 VM, use the nslookup command in the terminal to see the IP addresses of disney.com and google.com.</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="610" height="553" alt="image" src="https://github.com/user-attachments/assets/8e364c87-d7ae-41f3-bb73-b17e052bebdd" />
 </p>
 
 <h4>16a. Create Resource Group</h4>
