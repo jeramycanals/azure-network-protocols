@@ -313,7 +313,7 @@ At the end of the lab, we closed the Remote Desktop session and deleted the Reso
 <h2>Conclusion</h2>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this lab, we built a complete cloud-based environment in Azure and used it to visualize how core network protocols behave in real time. By deploying Windows and Linux virtual machines into the same virtual network, configuring Network Security Groups, and capturing traffic with Wireshark, we were able to see exactly how ICMP, SSH, DHCP, DNS, and RDP packets move between hosts and how security rules impact that communication. Each step reinforced a different aspect of cloud networking and packet analysis, from understanding basic connectivity and protocol behavior to observing how encrypted sessions and continuous RDP streams show up in network traffic. Together, these exercises strengthened our skills in troubleshooting, cloud networking, and security-focused thinking, providing a strong foundation for more advanced networking and cybersecurity labs in Azure.
 </p>
 
 <h2>Thank you for checking out my project!</h2>
