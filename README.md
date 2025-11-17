@@ -298,11 +298,10 @@ In Step 6, we analyzed how RDP traffic behaves by applying the Wireshark filter 
   <img width="566" height="871" alt="image" src="https://github.com/user-attachments/assets/89f3ab1d-9f93-4948-90d7-a8316424757c" />
 </p>
 
-<h4>21. Verify that the Resource Group has been deleted.</h4>
+<h4>21. Verify that the Resource Group was successfully deleted by refreshing the Resource Groups page in the Azure portal and confirming that it no longer appears in the list.</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="1154" height="646" alt="image" src="https://github.com/user-attachments/assets/dbef29cf-e44d-4904-bb2a-0d8467ce4d27" />
 </p>
 
 <h4>Lab Cleanup Summary</h4>
