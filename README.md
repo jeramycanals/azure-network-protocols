@@ -309,7 +309,7 @@ In Step 6, we analyzed how RDP traffic behaves by applying the Wireshark filter 
 <h4>Lab Cleanup Summary</h4>
 
 <p>
-Lorem
+At the end of the lab, we closed the Remote Desktop session and deleted the Resource Group that contained all of the Azure resources created during this lab. Removing the Resource Group ensured that every associated component (virtual machines, virtual network, disks, and IP addresses) was fully deleted to prevent unnecessary Azure charges. Finally, we verified that the Resource Group was successfully deleted, confirming that the environment was cleaned up properly.
 </p>
 
 <h2>Conclusion</h2>
