@@ -285,18 +285,16 @@ In Step 6, we analyzed how RDP traffic behaves by applying the Wireshark filter 
 
 <h3>Lab Cleanup</h3>
 
-<h4>19. Close the Remote Desktop connection.</h4>
+<h4>19. Close the Remote Desktop connection by clicking the X in the top-right corner of the RDP window.</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="751" height="252" alt="image" src="https://github.com/user-attachments/assets/23908425-8524-49f9-973f-8d97c973aff8" />
 </p>
 
 <h4>20. Delete the Resource Group(s) created at the beginning of this lab.</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="1524" height="349" alt="image" src="https://github.com/user-attachments/assets/f45f44fe-c178-41f0-86e7-b09ad9eeedfc" />
 </p>
 
 <h4>21. Verify that the Resource Group has been deleted.</h4>
