@@ -214,7 +214,7 @@ In Step 2, we connect to our Windows 10 VM using Remote Desktop, install Wiresha
 <h4>Step 3 Summary</h4>
 
 <p>
-In this section, we analyzed how SSH traffic behaved between two Azure virtual machines. After switching Wireshark to a capture filtered for SSH packets only (tcp.port == 22), we initiated an SSH connection from the Windows 10 VM to the Ubuntu VM using its private IP address. Once logged in, we executed several Linux commands such as id, hostname, and uname -a, which generated encrypted SSH activity and observed the resulting packet flow in Wireshark. Each command produced a burst of encrypted SSH packets, demonstrating how all session data was securely transmitted over the SSH protocol. Finally, we closed the session by typing exit, which ended the SSH connection.
+In Step 3, we analyzed how SSH traffic behaved between two Azure virtual machines. After switching Wireshark to a capture filtered for SSH packets only (tcp.port == 22), we initiated an SSH connection from the Windows 10 VM to the Ubuntu VM using its private IP address. Once logged in, we executed several Linux commands such as id, hostname, and uname -a, which generated encrypted SSH activity and observed the resulting packet flow in Wireshark. Each command produced a burst of encrypted SSH packets, demonstrating how all session data was securely transmitted over the SSH protocol. Finally, we closed the session by typing exit, which ended the SSH connection.
 </p>
 <h3>Step 4. Observe DHCP Traffic</h3>
 
@@ -266,7 +266,7 @@ In Step 4, we observed how DHCP traffic behaves when a Windows VM requests a new
 <h4>Step 5 Summary</h4>
 
 <p>
-In step 5, we examined how DNS traffic appeared in Wireshark when performing domain lookups from the Windows 10 VM. After filtering Wireshark to display only DNS traffic, we used the nslookup command to look up the IP addresses for disney.com and google.com. Each lookup generated DNS query and response packets, which were immediately visible in Wireshark. These packets showed the Windows VM sending a request to the DNS server and receiving the corresponding IP address information in return, demonstrating how DNS translates domain names into usable network addresses.
+In Step 5, we examined how DNS traffic appeared in Wireshark when performing domain lookups from the Windows 10 VM. After filtering Wireshark to display only DNS traffic, we used the nslookup command to look up the IP addresses for disney.com and google.com. Each lookup generated DNS query and response packets, which were immediately visible in Wireshark. These packets showed the Windows VM sending a request to the DNS server and receiving the corresponding IP address information in return, demonstrating how DNS translates domain names into usable network addresses.
 </p>
 
 <h3>Step 6. Observe RDP Traffic</h3>
@@ -280,7 +280,7 @@ In step 5, we examined how DNS traffic appeared in Wireshark when performing dom
 <h4>Step 6 Summary</h4>
 
 <p>
-Lorem
+In Step 6, we analyzed how RDP traffic behaves by applying the Wireshark filter tcp.port == 3389 and observing the packet flow while connected to the Windows 10 VM. Unlike ICMP, SSH, DHCP, or DNS, the RDP protocol produced a constant stream of packets, even when no actions were performed on the remote desktop. This continuous traffic occurred because RDP transmits a live stream of the remote session, requiring ongoing updates to display screen changes, mouse movements, and system states. As a result, the Wireshark capture showed nonstop network activity, demonstrating how RDP maintains an active connection to keep the remote desktop responsive and up to date.
 </p>
 
 <h3>Lab Cleanup</h3>
