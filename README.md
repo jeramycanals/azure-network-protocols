@@ -241,19 +241,25 @@ In this section, we analyzed how SSH traffic behaved between two Azure virtual m
 <h4>Step 4 Summary</h4>
 
 <p>
-Lorem
+In Step 4, we observed how DHCP traffic behaves when a Windows VM requests a new IP lease inside an Azure virtual network. After applying a DHCP filter in Wireshark, we ran ipconfig /renew from the Windows 10 VM to force a DHCP renewal. This triggered a DHCP Request packet from the VM to Azure’s internal DHCP server, followed by a DHCP ACK response granting the lease and confirming that the VM could continue using its assigned IPv4 address. These packets appeared immediately in Wireshark, clearly showing the DHCP handshake process in action.
 </p>
 
 <h3>Step 5. Observe DNS Traffic</h3>
 
-<h4>15. Create Resource Group</h4>
+<h4>15. In Wireshark, start a new capture and apply the display filter "dns" to view DNS traffic only.</h4>
+
+<p>
+  <img width="1244" height="617" alt="image" src="https://github.com/user-attachments/assets/6506c771-0e81-4346-afa6-acfaf812952f" />
+</p>
+
+<h4>16. Create Resource Group</h4>
 
 <p>
   <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
 
 </p>
 
-<h4>16. Create Resource Group</h4>
+<h4>16a. Create Resource Group</h4>
 
 <p>
   <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
