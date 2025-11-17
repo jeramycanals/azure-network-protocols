@@ -291,10 +291,11 @@ In Step 6, we analyzed how RDP traffic behaves by applying the Wireshark filter 
   <img width="751" height="252" alt="image" src="https://github.com/user-attachments/assets/23908425-8524-49f9-973f-8d97c973aff8" />
 </p>
 
-<h4>20. Delete the Resource Group(s) created at the beginning of this lab.</h4>
+<h4>20. Delete the Resource Group(s) created at the beginning of this lab by navigating to the Resource Groups page in the Azure portal, selecting the appropriate group, clicking “Delete resource group,” checking the “Apply force delete…” option, and entering the Resource Group name to confirm the deletion.</h4>
 
 <p>
-  <img width="1524" height="349" alt="image" src="https://github.com/user-attachments/assets/f45f44fe-c178-41f0-86e7-b09ad9eeedfc" />
+  <img width="848" height="881" alt="image" src="https://github.com/user-attachments/assets/4601f212-5626-4ecd-b5c5-9a66c45aa15c" />
+  <img width="566" height="871" alt="image" src="https://github.com/user-attachments/assets/89f3ab1d-9f93-4948-90d7-a8316424757c" />
 </p>
 
 <h4>21. Verify that the Resource Group has been deleted.</h4>
