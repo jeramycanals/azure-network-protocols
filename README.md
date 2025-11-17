@@ -17,7 +17,7 @@ This project provides a hands-on lab demonstrating how core network traffic beha
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Resource Group, Virtual Machines, Virtual Network (VNet), and Subnet)
+- Microsoft Azure (Resource Group, Virtual Network (VNet), Subnet, and Virtual Machines)
 - Network Security Groups (NSGs)
 - Azure Network Watcher
 - Remote Desktop (RDP)
