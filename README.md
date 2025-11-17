@@ -271,18 +271,10 @@ In step 5, we examined how DNS traffic appeared in Wireshark when performing dom
 
 <h3>Step 6. Observe RDP Traffic</h3>
 
-<h4>17. Create Resource Group</h4>
+<h4>17. Back in Wireshark, start a new capture and apply the display filter "tcp.port == 3389" to view RDP traffic only. Observe the immediate nonstop stream of traffic. This occurs because the RDP protocol is constantly showing you a live stream from one computer to another; therefore, traffic is always being transmitted.</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
-</p>
-
-<h4>18. Create Resource Group</h4>
-
-<p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="1208" height="699" alt="image" src="https://github.com/user-attachments/assets/c87959f0-c5b1-459c-aa40-99a4130244c6" />
 </p>
 
 <h4>Step 6 Summary</h4>
