@@ -257,17 +257,16 @@ In Step 4, we observed how DHCP traffic behaves when a Windows VM requests a new
   <img width="610" height="553" alt="image" src="https://github.com/user-attachments/assets/8e364c87-d7ae-41f3-bb73-b17e052bebdd" />
 </p>
 
-<h4>16a. Create Resource Group</h4>
+<h4>16a. Observe the DNS traffic in Wireshark that appears when the Windows VM looks up the domain names (disney.com and google.com).</h4>
 
 <p>
-  <img width="740" height="333" alt="image" src="https://github.com/user-attachments/assets/f7d9563a-df9d-4e26-a044-851679b9209d" />
-
+  <img width="1213" height="700" alt="image" src="https://github.com/user-attachments/assets/e765ca70-5afb-4bbb-b8ec-8bace3160916" />
 </p>
 
 <h4>Step 5 Summary</h4>
 
 <p>
-Lorem
+In step 5, we examined how DNS traffic appeared in Wireshark when performing domain lookups from the Windows 10 VM. After filtering Wireshark to display only DNS traffic, we used the nslookup command to look up the IP addresses for disney.com and google.com. Each lookup generated DNS query and response packets, which were immediately visible in Wireshark. These packets showed the Windows VM sending a request to the DNS server and receiving the corresponding IP address information in return, demonstrating how DNS translates domain names into usable network addresses.
 </p>
 
 <h3>Step 6. Observe RDP Traffic</h3>
