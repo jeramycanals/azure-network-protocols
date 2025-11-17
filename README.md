@@ -27,7 +27,7 @@ This project provides a hands-on lab demonstrating how core network traffic beha
 - ICMP (Ping)
 - Secure Shell (SSH)
 - DHCP (Dynamic Host Configuration Protocol)
-- DNS (Domain Name System
+- DNS (Domain Name System)
 
 <h2>Operating Systems Used </h2>
 
